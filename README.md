@@ -1,4 +1,4 @@
-# Module 1- Hello World Project
+# Module 1- Set up a "Hello Microverse" project
 ## _The Last Markdown Editor, Ever_
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
@@ -7,12 +7,10 @@
 
 <div id="badges" style="text-align: center;">
   <a href="https://stenlisuryadinata.github.io/Hello-World/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+    <img src="https://img.shields.io/website" alt="Web Badge"/>
   </a>
 
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
 
 - Type some Markdown on the left
 - See HTML in the right
