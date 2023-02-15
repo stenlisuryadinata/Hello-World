@@ -1,195 +1,190 @@
-# Module 1- Set up a "Hello Microverse" project
-## _The Last Markdown Editor, Ever_
+<a name="readme-top"></a>
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+Modify this file to match your project and remove sections that don't apply.
 
-<div id="badges" style="text-align: center;">
-  <a href="https://stenlisuryadinata.github.io/Hello-World/">
-    <img src="https://img.shields.io/website" alt="Web Badge"/>
-  </a>
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [ "Hello Microverse" project ] <a name="about-project"></a>
 
 
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+**[ Hello Microverse project ]** is a Github setup repo project,  the objective of the project is to create a "Hello World" repository. It doesn't require complex coding; the goal is to master version control system and best practice of Git, Github and Github workflow working steps.
 
-## Features
+## 🛠 Built With <a name="built-with"></a>
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+### Tech Stack <a name="tech-stack"></a>
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+> The tech stack and the relevant sections that apply to this project are the following: 
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+<details>
+  <summary>Version control system</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">git</a></li>
+    <li><a href="https://github.com/">github</a></li>
+    <li><a href="https://docs.github.com/en/actions/using-workflows">github action workflow</a></li>
+  </ul>
+</details>
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
+<details>
+  <summary>Linters</summary>
+  <ul>
+    <li><a href="https://github.com/microverseinc/linters-config">Linters</a></li>
+  </ul>
+</details>
 
-## Tech
+<details>
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://devdocs.io//">HTML, CSS, Javascript</a></li>
+  </ul>
+</details>
 
-Dillinger uses a number of open source projects to work properly:
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+<!-- LIVE DEMO -->
 
-## Installation
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+> Add a link to your deployed project.
 
-Install the dependencies and devDependencies and start the server.
+- [Live Demo Link](https://stenlisuryadinata.github.io/Hello-World/)
 
-```sh
-cd dillinger
-npm i
-node app
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-For production environments...
+<!-- GETTING STARTED -->
 
-```sh
-npm install --production
-NODE_ENV=production node app
-```
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Plugins
+> This project are best utilized playground to understand the working steps of git command control system. 
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
+### Prerequisites
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-## Development
+In order to run this project you need:
 
-Want to contribute? Great!
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
+Example command:
 
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
-#### Building for source
-
-For production release:
-
-```sh
-gulp build --prod
-```
-
-Generating pre-built zip archives for distribution:
-
-```sh
-gulp build dist --prod
-```
-
-## Docker
-
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the
-Dockerfile if necessary. When ready, simply use the Dockerfile to
-build the image.
+In the first commit of your feature branch create a .github/workflows folder and add a copy of .github/workflows/linters.yml to that folder.
+Remember to use the file linked above
+Remember that .github folder starts with a dot.
 
 ```sh
-cd dillinger
-docker build -t <youruser>/dillinger:${package.json.version} .
+ .github/workflows/linters.yml
 ```
+ 
 
-This will create the dillinger image and pull in the necessary dependencies.
-Be sure to swap out `${package.json.version}` with the actual
-version of Dillinger.
+### Setup
 
-Once done, run the Docker image and map the port to whatever you wish on
-your host. In this example, we simply map port 8000 of the host to
-port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+Clone this repository to your desired folder:
+
+
+Example commands:
 
 ```sh
-docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
 
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
 
-Verify the deployment by navigating to your server address in
-your preferred browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```sh
-127.0.0.1:8000
-```
+<!-- AUTHORS -->
 
-## License
+## 👥 Stenli Suryadinata <a name="authors"></a>
 
-MIT
+> Mention all of the collaborators of this project.
 
-**Free Software, Hell Yeah!**
+👤 **Dr Angela Yu**
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+- GitHub: [@githubhandle](https://github.com/angelabauer)
+- LinkedIn: [LinkedIn](https://twitter.com/yu_angela)
 
- [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
+👤
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
 
-    [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project , pleas kindly starred this repo 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank for everyone support this repo 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
